@@ -8,16 +8,55 @@
   <title>Responsive</title>
   <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/base.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <h2 class="question--title">Q7 サイズ変更</h2>
-  <h2 class="question--title">Q2 色変更</h2>
-  <h2 class="question--title">Q3 margin値の変更</h2>
-  <h2 class="question--title">Q4 floatの解除</h2>
-  <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
-  <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
-  <h2 class="question--title">Q7 要素の表示・非表示</h2>
+  <div class="wrap">
+    <h2 class="question--title">Q7 サイズ変更</h2>
+    <div class="q1--box"></div>
+    <h2 class="question--title">Q2 色変更</h2>
+    <div class="q2--box base--box"></div>
+    <h2 class="question--title">Q3 margin値の変更</h2>
+    <div class="q3--box clearfix">
+      <div class="bule--item base--box"></div>
+      <div class="green--item base--box"></div>
+    </div>
+    <h2 class="question--title">Q4 floatの解除</h2>
+    <div class="q4--box clearfix">
+      <div class="red--item base--box"></div>
+      <div class="bule--item base--box"></div>
+    </div>
+    <h2 class="question--title">Q5 flexboxの入れ替え(逆順)</h2>
+    <div class="q5--box">
+      <div class="flex--box">
+        <div class="red--item base--box"></div>
+        <div class="bule--item base--box"></div>
+        <div class="orange--item base--box"></div>
+      </div>
+    </div>
+    <h2 class="question--title">Q6 flexboxの入れ替え(指定)</h2>
+    <div class="q6--box">
+      <div class="flex--box">
+        <div class="green--item base--box flex--item">
+          <p class="text">A</p>
+        </div>
+        <div class="yellow--item base--box flex--item">
+          <p class="text">B</p>
+        </div>
+        <div class="pink--item base--box flex--item">
+          <p class="text">C</p>
+        </div>
+      </div>
+    </div>
+    <h2 class="question--title">Q7 要素の表示・非表示</h2>
+    <div class="q7--box">
+      <div class="flex--box">
+        <div class="red--item base--box"></div>
+        <div class="bule--item base--box"></div>
+        <div class="green--item base--box"></div>
+      </div>
+    </div>
+  </div>
 </body>
-
 </html>
