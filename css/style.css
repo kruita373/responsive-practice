@@ -76,6 +76,9 @@ body{
   justify-content: center;
   align-items: center;
 }
+.q6--box .green--item{
+  order: 0;
+}
 .q6--box .yellow--item{
   order: 1;
 }
@@ -112,13 +115,13 @@ body{
     flex-direction: row-reverse;
   }
   .q6--box .pink--item{
-    order: 1;
+    order: 0;
   }
   .q6--box .green--item{
-    order: 2;
+    order: 1;
   }
   .q6--box .yellow--item{
-    order: 3;
+    order: 2;
   }
   .q7--box .red--item{
     display: none;
